@@ -1,23 +1,23 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "🚀 Dhruv Charne — Full-Stack Web3 Developer | AI Explorer | Curious",
+  author: "Dhruv Charne",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    " I work across Web2, Web3, and AI, blending creativity with clean architecture to build things people actually use.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/dhruv4ne.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
+    { text: "Education", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Twitter", href: "https://x.com/Dhruv4ne" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/dhruv-charne-908848213/" },
+    { text: "Github", href: "https://github.com/DHRUVCHARNE" },
+    { text: "Youtube", href: "https://www.youtube.com/@DhruvCharne" },
+    { text: "Cyfrin", href: "https://profiles.cyfrin.io/u/dhruv4ne" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +25,93 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Dhruv Charne",
+    specialty: "Full-Stack Web3 Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "I work across Web2, Web3, and AI, blending creativity with clean architecture to build things people actually use.",
+    email: "dhruv4ne@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
-      summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
-      ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      company: "Madhav Institute of Technology and Sciences, Gwalior",
+      position: "BTech in Mathematics and Computing",
+      startDate: "Oct 2021",
+      endDate: "Aug 2025",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "Studied Mathematics,Statistics, Computer Science,Machine Learning and Artificial Intelligence with First Division",
     },
   ],
-  projects: [
-    {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
-    },
-    {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
-    },
-  ],
+  projects:[
+  {
+    name: "TSender Fullstack App",
+    summary:
+      "A full-stack Next.js dApp for batch-sending ERC-20 tokens to multiple recipients, powered by Wagmi and RainbowKit with end-to-end testing in Playwright and Synpress.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/TSender",
+    image: "/download.png",
+  },
+  {
+    name: "NFT Marketplace",
+    summary:
+      "A marketplace for minting, listing, and trading ERC-721 NFTs on the Anvil network, built with Next.js and Foundry and deployed live.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/TS-NFT-Marketplace",
+    image: "/download.png",
+  },
+  {
+    name: "Provably Random Lottery",
+    summary:
+      "A decentralized lottery system built in Foundry using Chainlink VRF and Automation/Upkeep to create a provably random and trustless winner selection.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/foundry-lottery-smart-contract",
+    image: "/download.png",
+  },
+  {
+    name: "Stablecoin Protocol (DFD)",
+    summary:
+      "A MakerDAO-style over-collateralized stablecoin pegged to USD with WETH collateral, liquidation safeguards, mint/burn logic, and price feeds via Chainlink OracleLib; includes full fuzz and invariant testing.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/dsc-stablecoin-protocol",
+    image: "/download.png",
+  },
+  {
+    name: "Dynamic Mood NFT",
+    summary:
+      "An on-chain ERC-721 NFT with fully on-chain JSON + SVG metadata that dynamically updates mood state. Includes deploy/interaction scripts plus comprehensive unit and integration testing.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/dynamic-nft-forge",
+    image: "/download.png",
+  },
+  {
+    name: "OurToken ERC-20",
+    summary:
+      "A configurable ERC-20 token leveraging OpenZeppelin standards with full Foundry test suite, deployment automation, Etherscan verification and Makefile integration.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/foundry-openzeppelin-erc20-token",
+    image: "/download.png",
+  },
+  {
+    name: "Basilisk Vyper ERC-20",
+    summary:
+      "A fixed-supply Vyper ERC-20 built with Moccasin featuring Ownable access control and EIP-712 support. Includes extensive Python scripting plus stateless/stateful fuzz tests and automated Blockscout deployment + verification.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/basilisk-token",
+    image: "/download.png",
+  },
+  {
+    name: "On-Chain Voting + Backend API",
+    summary:
+      "A Hardhat-based on-chain voting contract with secure candidate creation and one-vote-per-address, paired with an Express Web3 backend exposing REST APIs with authentication and centralized error handling.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE?tab=repositories&q=voting&type=&language=&sort=",
+    image: "/download.png",
+  },
+],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
+      Hey! I’m Dhruv — a developer who loves turning ideas into real, scalable, and beautifully engineered products. I work across Web2, Web3, and AI, blending creativity with clean architecture to build things people actually use.
+      `,
+    image: "/dhruv4ne.jpg",
   },
 };
 
