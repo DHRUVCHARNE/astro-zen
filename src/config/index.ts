@@ -83,19 +83,19 @@ export const SITE_CONTENT: SiteContent = {
     image: "/dynamic-nft.jpg",
   },
   {
-    name: "OurToken ERC-20",
+    name: "Live Attendance Backend (Express + WebSockets) using Bun runtime",
     summary:
-      "Configurable ERC-20 built with OpenZeppelin and fully tested in Foundry with automated deployment.",
+      "A live attendance system built with Express.js, MongoDB, and WebSockets, supporting real-time attendance marking with role-based access control for teachers and students.",
     linkPreview: "/",
-    linkSource: "https://github.com/DHRUVCHARNE/foundry-openzeppelin-erc20-token",
-    image: "/ourtoken.png",
+    linkSource: "https://github.com/DHRUVCHARNE/live-attendance-backend",
+    image: "/attendance.png",
   },
   {
-    name: "Basilisk Vyper ERC-20",
+    name: "Merkle Airdrop (Foundry)",
     summary:
-      "Fixed-supply Vyper ERC-20 with Ownable control & EIP-712 support, fuzz-tested and auto-verified.",
+      "Merkle Airdrop System built using foundry , ERC20 token distribution using merkle proofs and gas sponsorship with off-chain signature verification",
     linkPreview: "/",
-    linkSource: "https://github.com/DHRUVCHARNE/basilisk-token",
+    linkSource: "https://github.com/DHRUVCHARNE/merkle-airdrop-foundry",
     image: "/basilisk.png",
   },
   {
