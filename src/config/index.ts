@@ -96,7 +96,7 @@ export const SITE_CONTENT: SiteContent = {
       "Merkle Airdrop System built using foundry , ERC20 token distribution using merkle proofs and gas sponsorship with off-chain signature verification",
     linkPreview: "/",
     linkSource: "https://github.com/DHRUVCHARNE/merkle-airdrop-foundry",
-    image: "/basilisk.png",
+    image: "/merkle.png",
   },
   {
     name: "On-Chain Voting + Backend API",
