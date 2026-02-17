@@ -106,6 +106,46 @@ export const SITE_CONTENT: SiteContent = {
     linkSource: "https://github.com/DHRUVCHARNE?tab=repositories&q=voting&type=&language=&sort=",
     image: "/voting.png",
   },
+    {
+    name: "ZK Panagram",
+    summary:
+      "Proof-of-concept ZK app where users submit hash-based guesses, generate Honk proofs via Noir/Barretenberg, and verify them on-chain to mint ERC1155 NFTs on Sepolia.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/zk-panagram",
+    image: "/zk-panagram.png",
+  },
+  {
+    name: "BPE Tokenizer",
+    summary:
+      "From-scratch Byte Pair Encoding tokenizer in TypeScript + Bun, implementing the full BPE training loop with custom encode/decode — no tokenizer libraries used.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/bpe-tokenizer",
+    image: "/bpe-tokenizer.png",
+  },
+  {
+    name: "SpendSense",
+    summary:
+      "Full-stack expense tracker built with Next.js, tRPC, and Drizzle ORM, featuring real-time analytics, multi-currency support, OAuth2 auth, and Redis caching.",
+    linkPreview: "https://spendsense-sepia.vercel.app/",
+    linkSource: "https://github.com/DHRUVCHARNE/spendsense",
+    image: "/spendsense.png",
+  },
+  {
+    name: "Decentralized Stablecoin (MDSC)",
+    summary:
+      "USD-pegged overcollateralized stablecoin protocol built with Vyper & Moccasin, supporting WETH/WBTC collateral, Chainlink price feeds, and liquidations — deployed on zkSync Sepolia.",
+    linkPreview: "/",
+    linkSource: "https://github.com/DHRUVCHARNE/mdsc",
+    image: "/mdsc.png",
+  },
+  {
+    name: "Savory Trails",
+    summary:
+      "Responsive recipe finder built with Next.js, TypeScript, and Tailwind CSS, powered by the Forkify API with favorites management via Context API.",
+    linkPreview: "https://savory-trails.vercel.app/",
+    linkSource: "https://github.com/DHRUVCHARNE/savory-trails",
+    image: "/savory-trails.png",
+  },
 ],
   about: {
     description: `
