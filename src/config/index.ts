@@ -136,7 +136,7 @@ export const SITE_CONTENT: SiteContent = {
       "USD-pegged overcollateralized stablecoin protocol built with Vyper & Moccasin, supporting WETH/WBTC collateral, Chainlink price feeds, and liquidations — deployed on zkSync Sepolia.",
     linkPreview: "/",
     linkSource: "https://github.com/DHRUVCHARNE/mdsc",
-    image: "/stablecoin.png.png",
+    image: "/stablecoin.png",
   },
   {
     name: "Savory Trails",
