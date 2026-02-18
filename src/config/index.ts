@@ -112,7 +112,7 @@ export const SITE_CONTENT: SiteContent = {
       "Proof-of-concept ZK app where users submit hash-based guesses, generate Honk proofs via Noir/Barretenberg, and verify them on-chain to mint ERC1155 NFTs on Sepolia.",
     linkPreview: "/",
     linkSource: "https://github.com/DHRUVCHARNE/zk-panagram",
-    image: "/zk-panagram.png",
+    image: "/zk.png",
   },
   {
     name: "BPE Tokenizer",
@@ -120,7 +120,7 @@ export const SITE_CONTENT: SiteContent = {
       "From-scratch Byte Pair Encoding tokenizer in TypeScript + Bun, implementing the full BPE training loop with custom encode/decode — no tokenizer libraries used.",
     linkPreview: "/",
     linkSource: "https://github.com/DHRUVCHARNE/bpe-tokenizer",
-    image: "/bpe-tokenizer.png",
+    image: "/tokenizer.png",
   },
   {
     name: "SpendSense",
@@ -136,7 +136,7 @@ export const SITE_CONTENT: SiteContent = {
       "USD-pegged overcollateralized stablecoin protocol built with Vyper & Moccasin, supporting WETH/WBTC collateral, Chainlink price feeds, and liquidations — deployed on zkSync Sepolia.",
     linkPreview: "/",
     linkSource: "https://github.com/DHRUVCHARNE/mdsc",
-    image: "/mdsc.png",
+    image: "/stablecoin.png.png",
   },
   {
     name: "Savory Trails",
@@ -144,7 +144,7 @@ export const SITE_CONTENT: SiteContent = {
       "Responsive recipe finder built with Next.js, TypeScript, and Tailwind CSS, powered by the Forkify API with favorites management via Context API.",
     linkPreview: "https://savory-trails.vercel.app/",
     linkSource: "https://github.com/DHRUVCHARNE/savory-trails",
-    image: "/savory-trails.png",
+    image: "/savory.png",
   },
 ],
   about: {
